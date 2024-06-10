@@ -1,0 +1,153 @@
+
+.mainSale{
+    width: 90vw;
+    height: 95vh;
+    border: 2px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow-y:auto;
+    background-color:rgb(200, 232, 214); 
+ 
+}
+
+
+.mainSale input{
+    border: none;
+    background-color:rgb(200, 232, 214); 
+}
+.head{
+    width: 100%;
+    height: 5vh;
+    background-color: #1c4b20;
+    color: #fff;
+    position: absolute;
+    top: 0%;
+    
+
+}
+.head h3{
+    margin-right: 80%;
+     margin-top: 0%;
+}
+.SalesInput{
+    position: absolute;
+    left: 2%;
+    top: 10%;
+    display: block;
+  
+   
+    
+
+}
+.high{
+    background-color: rgb(151, 10, 10);
+    color: #fff;
+    width: 10vw;
+    border: none;
+    border-radius: 5px;
+    
+}
+.total{
+    position: absolute;
+    bottom: 15%;
+    left: 80%;
+    font-weight: bolder;
+}
+.DateDiv{
+    position: absolute;
+    top: 10%;
+    left: 80%;
+    font-style: italic;
+    font-weight: bolder;
+   
+}
+.tablesData{
+    position: absolute;
+    top: 25%;
+    left:0%;
+    display:flex;
+    margin: 2rem;
+    width: 90%;
+    display: flex;
+    padding: 2rem;
+    text-align:left;
+    overflow-y: auto;
+  
+}
+
+.tablesData table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 10px; /* Adjust this value as needed for the desired space */
+  }
+  
+  .tablesData th, .tablesData td {
+    padding: 10px; /* Add padding for better readability */
+    text-align: center;
+
+  }
+.mainSale .btn{
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
+    width: 10vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: none;
+    background-color: #1c4b20;
+    color: #fff;
+}
+.Combo{
+    position: absolute;
+    left: 2%;
+    top: 25%;
+    display:inline;
+    font-weight: bolder;
+}
+/* .itemDiv{
+    position: absolute;
+    left: 0;
+    right: 90%;
+} */
+.OrderDiv{
+    position: absolute;
+    top: 18%;
+    left: 2%;
+    font-weight: bolder;
+}
+
+.separator1 {
+    height: 100px;
+    border-bottom: 3px solid #000; 
+    margin-top: -60px; 
+    
+  }
+  .separator2 {
+    height: 100px;
+    border-bottom: 3px solid #000; 
+    margin-top: 150px; 
+    
+  }
+  .Desc{
+    position: absolute;
+    top: 80%;
+    left: 5%;
+    display: grid;
+    text-align: left;
+
+  }
+ 
+  .DescName{
+    text-decoration: underline;
+  }
+  .descInput{
+    width: 30vw;
+    height: 15vh;
+   border: none;
+  }
+  textarea{
+    background-color:rgb(200, 232, 214); 
+  
+  }
